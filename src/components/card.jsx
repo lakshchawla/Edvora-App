@@ -14,7 +14,7 @@ function Card(props) {
     // </div>
 
     <div className="Content mt-5 col-10 ms-auto me-auto">
-      <div className="card">
+      <div className="card ms-auto me-auto">
         <div className="row">
           <div className="card-body col-md-4">
             <img
