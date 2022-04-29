@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Body {
+  background-color: #292929;
+}
+
+.Navbar {
+  background-color: #101010;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(131, 232, 250);
+}
+
+.Active {
+  border-bottom: 1px solid white;
+}
+
+.card {
+  background-color: #171717;
+  color: white;
+  padding: 10px 20px;
+  max-width: 1120px;
+}
+
+.img-fluid,
+.card {
+  border-radius: 8px;
+}
+
+.btn-dark {
+  background-color: #101010;
+  border-radius: 50px;
+}
+
+.dropdown-toggle {
+  background-color: #292929;
+  border: 0;
+}
+
+.dropdown-toggle:focus {
+}
+
+.dropdown-menu {
+  width: 250px;
+  background-color: #101010;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.dropdown-toggle{
+  color: white;
+}
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-toggle:hover{
+  color: aqua;
+  background-color: transparent;
+}
+
+.dropdown-menu > h5 {
+  color: #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+  padding-bottom: 10px;
+}
+
+.secondary-dropdown {
+  width: 210px;
+  background-color: #292929;
+  border: 0;
+  text-align: left;
+}
+
+.secondary-dropdown > span {
+  position: relative;
+  bottom: 2px;
+  margin-left: auto;
+}
+
+.locBtn {
+  max-width: 130px;
+}
+
+.locationFocus {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.App{
+  padding-bottom: 50px;
+}
